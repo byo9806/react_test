@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
-import removeBackground from "@imgly/background-removal";
+import { removeBackground } from "@imgly/background-removal";
+
 
 function App() {
   const [resultUrl, setResultUrl] = useState(null);
